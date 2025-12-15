@@ -1,0 +1,140 @@
+#colect {
+  margin: 100px 0;
+}
+.colect {
+  h1 {
+    margin: 20px 0;
+  }
+  .fd {
+    display: flex;
+    justify-content: space-between;
+    .im {
+      .pi {
+        display: flex;
+        gap: 10px;
+        img {
+          border-radius: 10px;
+        }
+        .img3 {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+      .textt {
+        h2 {
+          margin: 5px;
+        }
+        .mn {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          h3 {
+            font-size: 12px;
+            span {
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#crypto {
+  background: #f6f7f8;
+  height: 500px;
+  padding: 60px 0;
+  .crypto {
+    img {
+      position: absolute;
+      z-index: 1;
+    }
+    .cry {
+      display: flex;
+      align-items: center;
+      gap: 80px;
+      margin: 70px 0 5px 70px;
+      position: absolute;
+      z-index: 2;
+      h4 {
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+      }
+      h1 {
+        font-size: 40px;
+        color: white;
+        line-height: 65px;
+      }
+      .btn {
+        display: flex;
+        gap: 40px;
+        button {
+          background: #3772ff;
+          color: white;
+          width: 160px;
+          height: 50px;
+          border-radius: 7px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .lolo {
+ 
+    width: 270px;
+    .ioni {
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+      h4 {
+        font-size: 30px;
+      }
+    }
+    p {
+      color: #888888;
+      line-height: 25px;
+      font-size: 16px;
+      font-weight: 200;
+    }
+    .ioio {
+      margin: 10px 0;
+
+      ion-icon {
+        color: gray;
+        transition: 1s;
+        font-size: 30px;
+        border: 1px solid gray;
+        border-radius: 50%;
+      }
+      ion-icon:hover {
+        color: #3772ff;
+        border: 1px solid #3772ff;
+      }
+    }
+    button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid#CCCCCC;
+      border-radius: 7px;
+      width: 200px;
+      height: 40px;
+      
+
+      .ti {
+        font-size: 30px;
+        color: #447af7;
+      }
+    }
+  }
+}
