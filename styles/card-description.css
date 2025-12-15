@@ -1,0 +1,142 @@
+#explo {
+  margin: 150px 0 0 0;
+}
+.explo {
+  .be {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .ti {
+      width: 320px;
+      height: 40px;
+      border-radius: 10px;
+      border: 2px solid #e5e4e4;
+      font-size: 18px;
+    }
+  }
+  .scroll {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 90px 0 0 0;
+
+    .ret {
+      font-size: 40px;
+      font-weight: 400;
+      color: gray;
+    }
+    .ret:hover {
+      color: blue;
+    }
+    .scrull {
+      background: #f3f4f5;
+      width: 270px;
+      height: 262px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .et {
+        .j {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          .rt {
+            background: white;
+            color: #45b26b;
+            width: 60px;
+            height: 25px;
+            border: 1px solid #45b26b;
+            border-radius: 7px;
+            margin: 10px 0;
+            font-size: 10px;
+          }
+        }
+        .po {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          button {
+            color: #3772ff;
+            background: #3772ff33;
+            width: 50px;
+            height: 25px;
+            border-radius: 5px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#guide {
+  background: #f6f7f8;
+  margin: 200px 0 0 0;
+  padding: 50px 0;
+  .guide {
+    .be {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 0;
+      button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid#CCCCCC;
+        border-radius: 7px;
+        .ti {
+          font-size: 30px;
+          color: #447af7;
+        }
+      }
+    }
+    .be-text {
+      background: white;
+      padding: 50px 0;
+      border-radius: 20px;
+
+      h2 {
+        margin: 20px 0 20px 160px;
+        ion-icon {
+          background: #3772ff;
+          border-radius: 50%;
+          color: white;
+        }
+      }
+      .ran {
+        display: flex;
+        align-items: center;
+        gap: 150px;
+        margin-left: 50px;
+        .b-t {
+          display: flex;
+          flex-direction: column;
+          input {
+            margin: 10px;
+          }
+        }
+        .bb {
+          width: 901px;
+
+          p {
+            color: #888888;
+            font-size: 16px;
+            line-height: 30px;
+          }
+          ul {
+            li {
+              font-size: 16px;
+              color: #888888;
+              line-height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
